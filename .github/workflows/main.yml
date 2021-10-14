@@ -12,7 +12,7 @@ on:
   
   #schedule:
   # 定时任务，每5分钟运行一次
-  #  - cron: '*/5 * * * *'
+  #  - cron: '*/1 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,8 +33,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         env:
-          USERNAME: ${{ secrets.USERNAME }}
-          PASSWORD: ${{ secrets.PASSWORD }}
+          USERNAME:18370706423 ${{ secrets.USERNAME }}
+          PASSWORD:l20020723 ${{ secrets.PASSWORD }}
           SENDKEY: ${{ secrets.SENDKEY }}
           ADDRESS: ${{ secrets.ADDRESS }}
         run: |
